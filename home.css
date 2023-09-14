@@ -60,7 +60,7 @@ p a:hover{
 
 div#frontone{
 	display: flex;
-	
+	height:15%;
 	width: 100%;
 	border: 0;
 	margin: auto;
@@ -133,7 +133,7 @@ img{
 	margin:auto;
 	height:10%;
 	width:100%;
-	box-shadow:0px 0px 10px var(--ceruleo);
+	box-shadow:0px 0px 15px var(--ceruleo);
 	border-radius: 5px;
 }
 
