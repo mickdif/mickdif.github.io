@@ -62,7 +62,6 @@ div#frontone{
 	display: flex;
 	
 	width: 100%;
-	height: 15%;
 	border: 0;
 	margin: auto;
 	
@@ -78,17 +77,17 @@ div#frontone{
 	margin: auto;
 	font-family: Georgia,Times,"Times New Roman",serif;
 	font-size: 400%;
-	max-height: 90%;
 	text-shadow: -10px 5px 5px var(--ceruleo);
 	color: black;
 }
+/*
 @media screen and (max-width: 800px){
 	#frontone h1{
 		margin-top:5%;
-		font-size: 300%;
+		font-size: 200%;
 	}
 }
-
+*/
 .terreno{
 	margin: auto;
 	padding:0;
