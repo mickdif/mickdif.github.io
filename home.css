@@ -58,6 +58,8 @@ p a:hover{
 	p a{color: var(--ceruleo)}
 }
 
+#map { height: 180px; }
+
 div#frontone{
 	display: flex;
 	height:15%;
