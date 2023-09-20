@@ -56,7 +56,7 @@ p a:hover{
 	text-decoration: underline var(--corallo);
 }
 @media screen and (max-width: 800px){
-	p a{color: var(--ceruleo)}
+	p a{color: var(--ceruleo);}
 }
 
 
