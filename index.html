@@ -10,27 +10,27 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-		crossorigin=""/>
+		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
-	<link href="home.css" rel="stylesheet" type="text/css">
+	<link href="dist/home.css" rel="stylesheet" type="text/css">
 
 	<!-- FONT -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,700&display=swap"
+		rel="stylesheet">
 
 	<!-- MAP SCRIPT -->
 	<!-- Make sure you put this AFTER Leaflet's CSS -->
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-		crossorigin=""></script>
+		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
 	<script>
 		var map = L.map('map').setView([51.505, -0.09], 13);
 		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 19,	
+			maxZoom: 19,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 	</script>
@@ -44,124 +44,133 @@
 			<h1>bit al vento</h1>
 		</div>
 	</a>
-	
+
 	<div class="terreno">
 
-	<!-- BENVENUTE -->
-		<div class="dueTerz aiuola">
-			<h3>Benvenut*!</h3>
-			<p>
-				Sei capitato nel mio giardino digitale!
-				<br><br>
-				Uno spazio che gestisco in libertà e che conterrà principalmente, per ora!, cose interessanti trovate sul web, e nel quale sperimenterò un pò di programmazione web.
-				<br><br>
-				Il concetto di "giardino digitale" l'ho scoperto qui <a href="https://www.vice.com/it/article/pky7vv/come-creare-blog-giardino-digitale?utm_source=pocket_mylist">"Se i social ti hanno stufato, è ora di costruirti un giardino digitale"</a> di Riccardo Coluccini.
-				<br><br>
-				In sintesi è un modo per (ri)appropiarsi di internet e di utilizzare tutti gli strumenti che mette a disposizione in maniera libera e originale.
-			</p>
+		<!-- Ciao! -->
+		<div class="aiuola">
+			<a href="https://Ciao!.html/">
+				<h3>Ciao!</h3>
+				<p>Cos'è questo sito?</p>
+			</a>
 		</div>
-		
+
 		<!-- Indovina il trend! -->
 		<div class="aiuola">
-		<a href="https://trendquiz.com/">
-			<h3>Indovina il trend!</h3>
-			<p>Giochino</p>
-			<div class="aggiornamento">inserito il 06/02/2023</div>
-		</a></div>
+			<a href="https://trendquiz.com/">
+				<h3>Indovina il trend!</h3>
+				<p>Giochino</p>
+				<div class="aggiornamento">inserito il 06/02/2023</div>
+			</a>
+		</div>
 
-		
+
 		<!-- Amazon WP -->
 		<div class="aiuola">
-		<a href="https://www.washingtonpost.com/technology/interactive/2022/amazon-shopping-ads/">
-			<h3>How Amazon shopping ads are disguised as real results</h3>
-            <p>Come i prodotti sponsorizzati hanno cambiato la ricerca su Amazon negli anni. Interessante grafica e notevole articolo di critica verso la principale azienda dell'editore.</p>
-			<img src="https://img.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z4X3RZJJGVEGLMHTMFRW65TPVY.jpg&amp;high_res=true&amp;w=2048">
-			<div class="aggiornamento">inserimento: 01 gen 2023 via WP</div>
-		</a></div>
+			<a href="https://www.washingtonpost.com/technology/interactive/2022/amazon-shopping-ads/">
+				<h3>How Amazon shopping ads are disguised as real results</h3>
+				<p>Come i prodotti sponsorizzati hanno cambiato la ricerca su Amazon negli anni. Interessante grafica e
+					notevole articolo di critica verso la principale azienda dell'editore.</p>
+				<img
+					src="https://img.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z4X3RZJJGVEGLMHTMFRW65TPVY.jpg&amp;high_res=true&amp;w=2048">
+				<div class="aggiornamento">inserimento: 01 gen 2023 via WP</div>
+			</a>
+		</div>
 
-		
+
 		<!-- treno 5 ore -->
 		<div class="aiuola">
-		<a href="https://www.chronotrains.com">
-			<h3>Dove puoi arrivare in treno in 5 ore</h3>
-            <p><a href="https://direkt.bahn.guru">Qui sotto c'è la fonte de dati</a>, altrettanto interessante!</p>
-			<img src="./index_img/treno_ore.png" alt="Mappa treno 5 ore da milano">
-			<div class="aggiornamento">inserito il 02/02/2023</div>
-		</a></div>
-		
+			<a href="https://www.chronotrains.com">
+				<h3>Dove puoi arrivare in treno in 5 ore</h3>
+				<p><a href="https://direkt.bahn.guru">Qui sotto c'è la fonte de dati</a>, altrettanto interessante!</p>
+				<img src="./index_img/treno_ore.png" alt="Mappa treno 5 ore da milano">
+				<div class="aggiornamento">inserito il 02/02/2023</div>
+			</a>
+		</div>
+
 		<!-- Marie Kondo -->
 		<div class="aiuola">
-		<a href="https://www.washingtonpost.com/home/2023/01/26/marie-kondo-kurashi-inner-calm/">
-			<h3>Decluttering queen Marie Kondo turns her focus to creating inner calm</h3>
-            <p>Anche lei si è rotta</p>
-			<img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/53SXASGOUNCHSDI5FUJZMHERZY.jpg&w=1200" alt="marie kondo">
-			<div class="aggiornamento">via: The Washington Post</div>
-		</a>
+			<a href="https://www.washingtonpost.com/home/2023/01/26/marie-kondo-kurashi-inner-calm/">
+				<h3>Decluttering queen Marie Kondo turns her focus to creating inner calm</h3>
+				<p>Anche lei si è rotta</p>
+				<img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/53SXASGOUNCHSDI5FUJZMHERZY.jpg&w=1200"
+					alt="marie kondo">
+				<div class="aggiornamento">via: The Washington Post</div>
+			</a>
 		</div>
-		
+
 		<!-- città griglia -->
 		<div class="aiuola">
-		<a href="https://www.economist.com/interactive/christmas-specials/2022/12/20/the-decline-of-the-city-grid">
-			<h3>The decline of the city grid</h3>
-			
-            <p>Sulle città fatte a griglia, e un misuratore della grigliosità delle città! Ora dietro paywall :( sto cercando alternative</p>
-			<img src="https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="griglia barcellona">
-			<div class="aggiornamento">inserito il 01/02/2023 via The Economist</text-align> </div>
-		</a></div>
-		
+			<a href="https://www.economist.com/interactive/christmas-specials/2022/12/20/the-decline-of-the-city-grid">
+				<h3>The decline of the city grid</h3>
+
+				<p>Sulle città fatte a griglia, e un misuratore della grigliosità delle città! Ora dietro paywall :( sto
+					cercando alternative</p>
+				<img src="https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+					alt="griglia barcellona">
+				<div class="aggiornamento">inserito il 01/02/2023 via The Economist</text-align>
+				</div>
+			</a>
+		</div>
+
 
 		<!-- airbnb -->
 		<div class="aiuola">
-		<a href="airbnb.html">
-			<h3>Su Airbnb</h3>
-            <p>Un misuratore di quanti annunci ci siano nelle città, articoli, commenti</p>
-			<img src="venezia airbnb.png" alt="Mappa venezia con airbnb">
-			<div class="aggiornamento">inserito il 09/09/2023 </div>
-		</a></div>
+			<a href="airbnb.html">
+				<h3>Su Airbnb</h3>
+				<p>Un misuratore di quanti annunci ci siano nelle città, articoli, commenti</p>
+				<img src="index_img/venezia airbnb.png" alt="Mappa venezia con airbnb">
+				<div class="aggiornamento">inserito il 09/09/2023 </div>
+			</a>
+		</div>
 
 		<div class="aiuola">
-		<a href="file.html">
-			<h3>Titolo</h3>
-            <p>sinossi</p>
-			 <div id="map"></div>
-			<div class="aggiornamento">inserito il //2023 via XXX	</div>
-		</a></div>
-		
-		
+			<a href="file.html">
+				<h3>Titolo</h3>
+				<p>sinossi</p>
+				<div id="map"></div>
+				<div class="aggiornamento">inserito il //2023 via XXX </div>
+			</a>
+		</div>
+
+
 		<!-- MAP -->
 		<div class="aiuola">
 			<a href="./overpass-layer-master/overpass-layer-master/index.html">
-			<h3>My Map</h3>
-            <p>tentativi</p>
-			<!-- <div id="map"></div> -->
-			<div class="aggiornamento">inserito il //2023 via XXX	</div>
+				<h3>My Map</h3>
+				<p>tentativi</p>
+				<!-- <div id="map"></div> -->
+				<div class="aggiornamento">inserito il //2023 via XXX </div>
 		</div>
 
 
 		<!-- Radiohead n64 -->
 		<div class="aiuola">
-		<a href="https://on4word.bandcamp.com/album/ok-nintendo-64">
-			<h3>I Radiohead con i suoni del Nintendo64</h3>
-            <p>In Rainbows Roads e OK Computer rifatti; perché no?</p>
-			<div class="aggiornamento">inserito il 18/09/2023</div>
-		</a></div>
+			<a href="https://on4word.bandcamp.com/album/ok-nintendo-64">
+				<h3>I Radiohead con i suoni del Nintendo64</h3>
+				<p>In Rainbows Roads e OK Computer rifatti; perché no?</p>
+				<div class="aggiornamento">inserito il 18/09/2023</div>
+			</a>
+		</div>
 
 
 		<!-- contro le auto -->
 		<div class="aiuola">
-		<a href="controAuto.htlm">
-			<h3>Contro le auto!</h3>
-            <p>Immaginare a città più vivibili</p>
-			<img src="http://cdn.shopify.com/s/files/1/0516/1503/9679/products/CARS-RUIN-CITIES_1200x1200.jpg?v=1635617738" alt="cars ruin cities">
-			<div class="aggiornamento">inserito il 18/09/2023</div>
-		</a></div>
+			<a href="controAuto.htlm">
+				<h3>Contro le auto!</h3>
+				<p>Immaginare a città più vivibili</p>
+				<img src="http://cdn.shopify.com/s/files/1/0516/1503/9679/products/CARS-RUIN-CITIES_1200x1200.jpg?v=1635617738"
+					alt="cars ruin cities">
+				<div class="aggiornamento">inserito il 18/09/2023</div>
+			</a>
+		</div>
 
 
 	</div>
-		
+
 </body>
 
-		<!-- MODELLO -->
+<!-- MODELLO -->
 <!--	
 		COMMENTO
 		<div class="aiuola">
