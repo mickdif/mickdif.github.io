@@ -1,0 +1,16 @@
+{
+    "0": {
+        "name": "ciao",
+        "coord": {
+            "lat": 0,
+            "lng": 0
+        }
+    },
+    "1": {
+        "name": "ciao",
+        "coord": {
+            "lat": 0,
+            "lng": 0
+        }
+    }
+}

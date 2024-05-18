@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+	<title>Bit al vento</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+	<link href="dist/home.css" rel="stylesheet" type="text/css">
+
+	<!-- FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,700&display=swap"
+		rel="stylesheet">
+
+	<!-- MAP SCRIPT -->
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+	<script>
+		var map = L.map('map').setView([51.505, -0.09], 13);
+		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 19,
+			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		}).addTo(map);
+	</script>
+
+</head>
+
+
+<body>
+	<a href="index.html">
+		<div id="frontone">
+			<h1>bit al vento</h1>
+		</div>
+	</a>
+
+	<div class="terreno">
+		<div class="col_8">
+
+			<!-- pollution -->
+			<div class="aiuola">
+				<a
+					href="places.html">
+					<h3>Places</h3>
+				</a>
+			</div>
+
+			<!-- pollution -->
+			<div class="aiuola">
+				<a
+					href="https://www.theguardian.com/environment/ng-interactive/2023/sep/20/europes-pollution-divide-see-how-your-area-compares">
+					<h3>Inquinamento da pm 2.5 in Europa</h3>
+					<p></p>
+					<img src="https://i.guim.co.uk/img/media/4c5284a02011d1c8b67f1844c80dfe9298a0e9b0/0_0_5000_3000/master/5000.jpg?width=620&dpr=1&s=none"
+						alt="text">
+					<div class="aggiornamento">inserito il 29/09/2023</div>
+				</a>
+			</div>
+
+			<!-- airbnb -->
+			<div class="aiuola">
+				<a href="airbnb.html">
+					<h3>Su Airbnb</h3>
+					<p>Un misuratore di quanti annunci ci siano nelle città, articoli, commenti</p>
+					<img src="index_img/venezia airbnb.png" alt="Mappa venezia con airbnb">
+					<div class="aggiornamento">inserito il 09/09/2023 </div>
+				</a>
+			</div>
+
+
+			<!-- TRAVEL TIME -->
+			<div class="aiuola">
+				<a
+					href="https://app.traveltime.com/search/0-lng=9.18963&0-tt=10&0-mode=cycling-ferry&0-title=Milan%2C%20Lombardy%2C%20Italy&0-lat=45.46419&poi=milano">
+					<h3>TravelTime</h3>
+					<p>Dove puoi arrivare da casa in dieci minuti in bici? e in 15 in bus? Il servizio essenziale quando
+						si cerca casa!</p>
+					<img src="index_img/traveltime.png" alt="text">
+					<div class="aggiornamento">inserito il 13/10/2023 </div>
+				</a>
+			</div>
+
+			<!-- true size countries -->
+			<div class="aiuola">
+				<a href="https://www.thetruesize.com/#">
+					<h3>Quanto sono davvero grandi gli stati?</h3>
+					<p>Un link per rimettere le cose alle giuste dimensioni: la rappresentazione classica del mondo
+						distorce
+						le distanze, lo sappiamo, ma ne
+						siamo comunque influenzati.</p>
+					<img src="index_img/realSize.png" alt="l'italia è lunga quanto l'alaska">
+					<div class="aggiornamento">inserito il 27/09/2023 via XXX </div>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="col_4">
+
+
+			<!-- Ciao! -->
+			<div class="aiuola">
+				<a href="ciao.html/">
+					<h3>Ciao!</h3>
+					<p>Cos'è questo sito?</p>
+				</a>
+			</div>
+
+			<!-- Amazon WP -->
+			<div class="aiuola">
+				<a href="https://www.washingtonpost.com/technology/interactive/2022/amazon-shopping-ads/">
+					<h3>How Amazon shopping ads are disguised as real results</h3>
+					<p>Come i prodotti sponsorizzati hanno cambiato la ricerca su Amazon negli anni. Interessante
+						grafica e
+						notevole articolo di critica verso la principale azienda dell'editore.</p>
+					<img
+						src="https://img.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z4X3RZJJGVEGLMHTMFRW65TPVY.jpg&amp;high_res=true&amp;w=2048">
+					<div class="aggiornamento">inserimento: 01 gen 2023 via WP</div>
+				</a>
+			</div>
+
+
+			<!-- treno 5 ore -->
+			<div class="aiuola">
+				<a href="https://www.chronotrains.com">
+					<h3>Dove puoi arrivare in treno in 5 ore</h3>
+					<p><a href="https://direkt.bahn.guru">Qui la fonte de dati</a>, altrettanto interessante!
+					</p>
+					<img src="./index_img/treno_ore.png" alt="Mappa treno 5 ore da milano">
+					<div class="aggiornamento">inserito il 02/02/2023</div>
+				</a>
+			</div>
+
+			<!-- Marie Kondo -->
+			<div class="aiuola">
+				<a href="https://www.washingtonpost.com/home/2023/01/26/marie-kondo-kurashi-inner-calm/">
+					<h3>Decluttering queen Marie Kondo turns her focus to creating inner calm</h3>
+					<p>Anche lei si è rotta</p>
+					<img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/53SXASGOUNCHSDI5FUJZMHERZY.jpg&w=1200"
+						alt="marie kondo">
+					<div class="aggiornamento">via: The Washington Post</div>
+				</a>
+			</div>
+
+			<!-- Schemas of uncertainty -->
+			<div class="aiuola">
+				<a href="https://schemasofuncertainty.com">
+					<h3>Schemas of uncertainty</h3>
+					<p>Non so cosa sia ma è bellissimo</p>
+					<img src="index_img/schemasofuncertainty.png" alt="Schemas of uncertainty">
+					<div class="aggiornamento">inserito il 29/09/2023</div>
+				</a>
+			</div>
+
+			<!-- Indovina il trend! -->
+			<div class="aiuola">
+				<a href="https://trendquiz.com/">
+					<h3>Indovina il trend!</h3>
+					<p>Giochino</p>
+					<div class="aggiornamento">inserito il 06/02/2023</div>
+				</a>
+			</div>
+
+			<!-- città griglia -->
+			<div class="aiuola">
+				<a
+					href="https://www.economist.com/interactive/christmas-specials/2022/12/20/the-decline-of-the-city-grid">
+					<h3>The decline of the city grid</h3>
+
+					<p>Sulle città fatte a griglia, e un misuratore della grigliosità delle città! Ora dietro paywall :(
+						sto
+						cercando alternative</p>
+					<img src="https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+						alt="griglia barcellona">
+					<div class="aggiornamento">inserito il 01/02/2023 via The Economist</text-align>
+					</div>
+				</a>
+			</div>
+
+
+			<!-- Radiohead n64 -->
+			<div class="aiuola">
+				<a href="https://on4word.bandcamp.com/album/ok-nintendo-64">
+					<h3>I Radiohead con i suoni del Nintendo64</h3>
+					<p>In Rainbows Roads e OK Computer rifatti; perché no?</p>
+					<img src="https://f4.bcbits.com/img/a0006260540_10.jpg" alt="n64 radiohead">
+					<div class="aggiornamento">inserito il 18/09/2023</div>
+				</a>
+			</div>
+
+
+			<!-- contro le auto -->
+			<!-- <div class="aiuola">
+	<a href="controAuto.htlm">
+		<h3>Contro le auto!</h3>
+		<p>Immaginare città più vivibili</p>
+		<img src="http://cdn.shopify.com/s/files/1/0516/1503/9679/products/CARS-RUIN-CITIES_1200x1200.jpg?v=1635617738"
+			alt="cars ruin cities">
+		<div class="aggiornamento">inserito il 18/09/2023</div>
+	</a>
+</div> -->
+
+			<!-- MAP -->
+			<div class="aiuola">
+				<a href="./overpass-layer-master/overpass-layer-master/index.html">
+					<h3>Cartina</h3>
+					<p>Lavori in corso...</p>
+					<div id="map"></div>
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+</body>
+
+<!-- MODELLO -->
+<!--	
+		COMMENTO
+		<div class="aiuola">
+			<a href="file.html">
+				<h3>Titolo</h3>
+				<p>sinossi</p>
+				<img src="foto"
+					alt="text">
+				<div class="aggiornamento">inserito il //2023 via XXX	</div>
+			</a>
+		</div>
+-->
